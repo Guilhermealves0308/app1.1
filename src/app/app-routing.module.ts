@@ -6,10 +6,10 @@ import { PlanosComponent } from './planos/planos.component';
 import { ContatoComponent } from './contato/contato.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'adicionar', component: AdicionarComponent },
   { path: 'planos', component: PlanosComponent},
-  {path: 'contato', component: ContatoComponent}
-  
+  {path: 'contato', component: ContatoComponent},
+  { path: 'adicionar', component: AdicionarComponent },
+
 ];
 
 @NgModule({
