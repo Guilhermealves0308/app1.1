@@ -29,6 +29,10 @@
 .nav-item {
   margin: 0;
 }
+.nav-item :hover {
+background-color: #9b0000;
+color: white;
+}
 
 .nav-link {
   text-decoration: none;
@@ -44,10 +48,10 @@
 }
 
 .nav-link[aria-current="page"] {
-  background-color: #333;
+  background-color: #9b0000;
   color: #fff;
 }
 
 .nav-link[aria-current="page"]:hover {
-  background-color: #444;
+  background-color: #ff0000;
 }
