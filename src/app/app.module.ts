@@ -26,9 +26,10 @@ import { HomeComponent } from './home/home.component';
 import { AdicionarComponent } from './adicionar/adicionar.component';
 import { FooterComponent } from './footer/footer.component';
 import { PlanosComponent } from './planos/planos.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @NgModule({
-  declarations: [AppComponent, EmpAddEditComponent, HeaderComponent, HomeComponent, AdicionarComponent, FooterComponent, PlanosComponent],
+  declarations: [AppComponent, EmpAddEditComponent, HeaderComponent, HomeComponent, AdicionarComponent, FooterComponent, PlanosComponent, ContatoComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
